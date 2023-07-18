@@ -7,15 +7,15 @@
  * Return: 1 if c is lowercase, 0 otherwise.
  */
 int _islower(int c)
+
 {
-    /* Check if the ASCII value of c falls within the range of lowercase characters */
-    if (c >= 'a' && c <= 'z')
-    {
-        return 1; /* Return 1 if c is lowercase */
-    }
-    else
-    {
-        return 0; /* Return 0 if c is not lowercase */
-    }
+if (c >= 'a' && c <= 'z')
+{
+return (1);
+}
+else
+{
+return (0);
+}
 }
 
